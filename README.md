@@ -11,9 +11,12 @@ Starbucks provided simulated data that mimics customer behavior on the Starbucks
 The problem that I chose to solve was to build a model that predicts whether a customer will viewed an offer and spent more than normal.
 Here are the 3 notebooks that I am working on through the analysis :  
 
-1- data cleaning.ipynb 
+1- data cleaning.ipynb
+
 2- Feature engineer and EDA.ipynb
+
 3- modelling.ipynb
+
 4- model_helper.py
 
 ### 3. Installation<a name="installation"></a>
