@@ -3,8 +3,7 @@ This project is a part of Udacity Data Science Nanodegree
 
 ### 1. Project Overview<a name="overview"></a>
 
-Starbucks provided simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. Not all users receive the same offer, and that is the challenge to solve with this data set.
-The task is to combine transaction, demographic and offer data to determine which demographic groups respond best to which offer type.
+Starbucks provided simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer tousers. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks. If the customer finish the requirement before offer expired, they will receive the reward.  The goal of the promotion is to motivate individuals to make more purchases and increase the profits for the company. Therefore, our objective will be to identify customers whom are inclined to spent more when offered with the promotion. We will define this type of customer as 'responsive' to a specific offer. Our plan is to design a ML model which will predict whether a customer will spent more on a specific offer given the customer's information.
 
 
 ### 2. Project Components<a name="components"></a>
@@ -12,9 +11,10 @@ The task is to combine transaction, demographic and offer data to determine whic
 The problem that I chose to solve was to build a model that predicts whether a customer will viewed an offer and spent more than normal.
 Here are the 3 notebooks that I am working on through the analysis :  
 
-1- data cleaning.ipynb
+1- data cleaning.ipynb 
 2- Feature engineer and EDA.ipynb
 3- modelling.ipynb
+4- model_helper.py
 
 ### 3. Installation<a name="installation"></a>
 
