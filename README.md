@@ -13,7 +13,7 @@ Our plan is to design a set of ML models which will predict whether a customer w
 ### 2. Project Components<a name="components"></a>
 
 The problem that I chose to solve was to build a model that predicts whether a customer will viewed an offer and spent more than normal.
-Here are the 3 notebooks that I am working on through the analysis :  
+Here are the 3 notebooks and 1 python file that I am working on through the analysis :  
 
 1- data cleaning.ipynb
 
@@ -27,7 +27,7 @@ Here are the 3 notebooks that I am working on through the analysis :
 
  - The code should run with no issues using Python versions 3.*.
  - No extra besides the built-in libraries from Anaconda needed to run this project
- - Data Processing & Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn
+ - Data Processing & Machine Learning Libraries: NumPy, SciPy, Pandas, Sciki-Learn, XGBoost
  - Data Visualization: Matplotlib, Seaborn
 
 ### 4. File Descriptions<a name="files"></a>
