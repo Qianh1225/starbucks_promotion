@@ -64,11 +64,12 @@ Here is the schema and explanation of each variable in the files:
 
 ### 5. Result<a name="results"></a>
 We have built ten XGBoost classifier combined with SMOTE method to predict the customers who are responsive for each offer id. The 10 classifier have an average recall of 0.6 and an average precision of 0.2.
-The main summary of the results:
+
+The main summary of the results are:
 * The offer id 1 (Discount 7/7/3) and the offer id 9 ( Discount 10/10/2) have the highest proportion of the responsive customers. If we don't know any information of a new customer, we can simply offer either of the two promotions. 
 * Among all the offer types, female customer have higher probability to response to the promotions. 
-people who become member in 2016 and 2017 have higher probability to response to the promotions.
-older people(age > 50s) will be more responsive the the promotions.
+* people who become member in 2016 and 2017 have higher probability to response to the promotions.
+* older people(age > 50s) will be more responsive the the promotions.
 * People with income between 50–70k are more inclined to purchase more when offered with the promotions.
 
 The main analysis are published on medium [here](https://medium.com/@qianh1225/design-a-starbuck-promotion-strategy-d61400543651)
